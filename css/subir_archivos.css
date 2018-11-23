@@ -1,0 +1,157 @@
+#subir_articulo .nuevo{
+	color: #000;
+	font-weight: bold;
+	padding: 10px 25px;
+}
+#subir_articulo .nuevo:before{
+	content: '\f10a';
+	transform: rotate(-45deg);
+	font-weight: bold;
+	font-size: 0.8em;
+	left: 22px;
+	top: 13px;
+	position: absolute;
+	font-family: 'flaticon';
+}
+#subir_articulo_cell .nuevo{
+	color: #000;
+	font-weight: bold;
+	padding: 10px 25px;
+}
+#subir_articulo_cell .nuevo:before{
+	content: '\f10a';
+	transform: rotate(-45deg);
+	font-weight: bold;
+	font-size: 0.8em;
+	left: 22px;
+	top: 13px;
+	position: absolute;
+	font-family: 'flaticon';
+}
+#ventana{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	width: 230px;
+	left: 65px;
+	border:2px solid #000;
+	transform: scale(1.5);
+	z-index: 99999999;
+	overflow: ;
+	display: none;
+}
+#ventana #cabezera{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#ventana #cabezera h6{
+	position: relative;
+	top: 4px;
+	font-weight: bold;
+}
+#ventana #ocultar{
+ cursor: pointer;
+ font-weight: bold;
+ color: red;
+ position: relative;
+ left: 190px;
+ top: -30px;
+ padding: 3px 5px;
+ border-radius: 50%;
+ border:1px solid #000;
+}
+#ventanas{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	width: 230px;
+	left: 65px;
+	border:2px solid #000;
+	transform: scale(1.5);
+	z-index: 99999999;
+	overflow: hidden;
+	display: none;
+}
+#ventanas #cabezera{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#ventanas #cabezera h6{
+	position: relative;
+	top: 4px;
+	font-weight: bold;
+}
+#ventanas #ocultacion{
+ cursor: pointer;
+ font-weight: bold;
+ color: red;
+ position: relative;
+ left: 190px;
+ top: -30px;
+ padding: 3px 5px;
+ border-radius: 50%;
+ border:1px solid #000;
+}
+#botones button{
+	margin-left: 8px;
+}
+
+@-webkit-keyframes ventana{
+	0%{
+		opacity: 0;
+		transform: translateY(-130px); 
+	}
+
+}
+
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+	#ventana{
+		left: 240px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	#subir_articulo h3{
+	background-color: transparent;
+	position: relative;
+	left: 170px;
+}
+#ventana{
+	left: 160px;
+}
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	#subir_articulo h3{
+	left: 260px;
+}
+#ventana{
+	left: 300px;
+}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	#subir_articulo h3{
+	left: 360px;
+}
+#ventana{
+	left: 380px;
+}
+}

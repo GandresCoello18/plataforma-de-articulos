@@ -1,0 +1,195 @@
+.espera{
+	width: 33%;
+}
+.aceptado{
+	width: 33%;
+}
+.rechazado{
+	width: 33%;
+}
+.me_gusto{
+	cursor: pointer;
+}
+.le_gusto{
+	cursor: pointer;
+}
+.me_gusto:before{
+	content: '\f137';
+	position: absolute;
+	font-family: 'flaticon';
+	font-size: 1.3em;
+	font-weight: bold;
+	left: 28px;
+	cursor: pointer;
+	color: royalblue;
+}
+.le_gusto:before{
+	content: '\f16a';
+	position: absolute;
+	font-weight: bold;
+	font-family: 'flaticon';
+	font-size: 1.3em;
+	left: 20px;
+	cursor: pointer;
+	color: orange;
+}
+.contenido_le_gusta:before{
+	content: '';
+	position: absolute;
+	border:1px solid transparent;
+	border-right-width: 20px;
+	border-left-width: 20px;
+	border-top-width: 20px;
+	border-bottom-width: 20px;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: orange;
+    top: -40px;
+    left: 60px;
+}
+.contenido_le_gusta{
+	position: relative;
+	top: 25px;
+    border:2px solid orange;
+}
+.contenido_me_gusta:before{
+	content: '';
+	position: absolute;
+	border:1px solid transparent;
+	border-right-width: 20px;
+	border-left-width: 20px;
+	border-top-width: 20px;
+	border-bottom-width: 20px;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: royalblue;
+    top: -40px;
+    left: 270px;
+}
+.contenido_me_gusta{
+	position: relative;
+	top: 25px;
+    border:2px solid royalblue;
+    left: -5px;
+    display: none;
+    
+}
+.contenido_me_gusta ol li strong a{
+	cursor: pointer;
+	color: #000;
+	background-color: transparent;
+}
+.contenido_me_gusta_cell ol li strong a{
+	cursor: pointer;
+	color: #000;
+	background-color: transparent;
+}
+.contenido_le_gusta ol li strong a{
+	cursor: pointer;
+	color: #000;
+}
+.arregla_cell{
+		position: absolute;
+		left: 220px;
+		top: 0px;
+		margin: 200px;
+	}
+.arreglar_cell li{
+		list-style: none;
+		display: inline-block;
+	}
+	.targeta_cell{
+	width:344px;
+	}
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+	.contenido_me_gusta:before{
+		left: 390px;
+	}
+	.targeta_cell{
+		width: 510px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	.espera{
+	width: 25%;
+	}
+	.aceptado{
+		width: 25%;
+	}
+	.rechazado{
+		width: 25%;
+	}
+	.le_gusto:before{
+		left: -10px;
+	}
+	.me_gusto:before{
+		left: -15px;
+	}
+	.tit_datalle{
+		left: -70px;
+		position: relative;
+	}
+	.arreglar{
+		position: absolute;
+		left: 260px;
+		top: 0px;
+	}
+	.arreglar li{
+		list-style: none;
+	}
+
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	.espera{
+	width: 28%;
+	}
+	.aceptado{
+		width: 28%;
+	}
+	.rechazado{
+		width: 28%;
+	}
+	.gusto_col{
+		left: 60px;
+		position: relative;
+	}
+	.contenido_me_gusta{
+		left: 185px;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	.espera{
+	width: 30%;
+	}
+	.aceptado{
+		width: 30%;
+	}
+	.rechazado{
+		width: 30%;
+	}
+	.gusto_col{
+		left: 130px;
+	}
+	.contenido_me_gusta{
+		left: 345px;
+	}
+	.contenido_le_gusta{
+		left: 100px;
+	}
+}

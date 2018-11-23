@@ -1,0 +1,22 @@
+.foto_vista_previa figure{
+	position: relative;
+	/*transform: rotate(-75deg);*/
+	left: -10px;
+}
+.blanco_fondo{
+	background-color: #fff;
+}
+.info_vista_previa:before{
+	content: '\f133';
+	position: absolute;
+	font-weight: bold;
+	font-family: 'flaticon';
+	font-size: 1.4em;
+	left: 100px;
+	top: 15px;
+}
+@media screen and (min-width: 1200px){
+	.info_vista_previa:before{
+		left: 190px;
+	}
+}

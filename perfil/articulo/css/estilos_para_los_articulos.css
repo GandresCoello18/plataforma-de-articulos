@@ -1,0 +1,108 @@
+#fondo{
+	background-color: #fff;
+}
+#sabias{
+	background-color: #cdcdcd;
+}
+#sabias h6{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 5px;
+}
+#sabias p{
+	font-weight: bold;
+}
+#sabias:before{
+	content: '\f133';
+	position: absolute;
+	font-family: 'flaticon';
+	color: #fff;
+	width: 40px;
+	right: -3px;
+	top: -10px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+#sugerencia{
+    background-color: #cdcdcd;	
+}
+#sugerencia h6{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 5px;
+}
+#sugerencia p{
+	font-weight: bold;
+}
+#sugerencia:before{
+	content: '\f10d';
+	position: absolute;
+	font-family: 'flaticon';
+	color: #fff;
+	width: 40px;
+	right: -3px;
+	top: -10px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.7em;
+}
+#estrella{
+	height: 30px;
+	cursor: pointer;
+}
+#estrella i{
+	position: relative;
+	top: -5px;
+	left: -10px;
+	color: orange;
+}
+.btn_notas{
+	width: 40px;
+	height: 40px;
+	background-color: #008B8B;
+	border-radius: 50%;
+	position: fixed;
+	top: 55%;
+	left: 330px;
+	cursor: pointer;
+}
+.btn_notas:before{
+	content: '\f14e';
+	position: absolute;
+	font-family: 'flaticon';
+	font-size: 1.3em;
+	color: #fff;
+	left: 10px;
+	top: 5px;
+}
+#myNota{
+	top: 100px;
+}
+
+#myNota #etiqueta{
+	width: 150px;
+	border: 3px solid #008B8B;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+	.btn_notas{
+		left: 80%;
+	}
+	#myNota #etiqueta{
+	width: 170px;
+	left: -50px;
+	position: relative;
+	}
+}

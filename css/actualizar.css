@@ -1,0 +1,75 @@
+#actualiza_datos_cell #fondo_actualiza{
+	width: 380px;
+	height: 580px;
+	background-color: #000;
+	opacity: 0.9;
+	border: 1px solid #000;
+	position: relative;
+	top: 20px;
+	border-radius: 5px;
+	padding: 10px;
+}
+#actualiza_datos_cell #fondo_actualiza h5{
+	color: #20B2AA;
+	padding: 15px;
+}
+#actualiza_datos_cell #fondo_actualiza p{
+   color: #fff;
+}
+#actualiza_datos_cell #fondo_actualiza label{
+   color: #fff;
+}
+#foto_perfil{
+	color: #fff;
+}
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	#actualiza_datos #fondo_actualiza{
+	width: 550px;
+	height: 520px;
+	background-color: #000;
+	opacity: 0.9;
+	border: 1px solid #000;
+	position: relative;
+	top: 50px;
+	border-radius: 5px;
+	padding: 10px;
+}
+#foto_perfil{
+	color: #fff;
+}
+#actualiza_datos #fondo_actualiza h5{
+	color: #20B2AA;
+	padding: 15px;
+}
+#actualiza_datos #fondo_actualiza p{
+	color: #fff;
+}
+#actualiza_datos #fondo_actualiza label{
+	color: #fff;
+}
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	#actualiza_datos #fondo_actualiza{
+		left: 80px;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	#actualiza_datos #fondo_actualiza{
+		left: 140px;
+	}
+}

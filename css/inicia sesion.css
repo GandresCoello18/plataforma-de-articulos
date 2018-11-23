@@ -1,0 +1,132 @@
+#fondo_imagen{
+	width: 99%;
+	height: 630px;
+	background-image: url(../img/estudios.jpg);
+	background-repeat: no-repeat;
+	background-size: 99% 700px;
+}
+#fondo_imagen #registro{
+	background-color: rgba(0,0,0,0.5);
+	width: 370px;
+	height: 620px;
+	color: #fff;
+	position: relative;
+}
+#fondo_imagen #registro .contra_1:before{
+	content: '\f12b';
+	position: absolute;
+	font-family: 'flaticon';
+	font-size: 1.5em;
+	color: #000;
+	font-weight: bold;
+	left: 310px;
+	top: 33px;
+	cursor: pointer;
+}
+#botom{
+	background-color: royalblue;
+	color: #fff;
+}
+#botom:hover{
+	background-color: #191970;
+}
+#botomLogin{
+	background-color: #ce7f08;
+	color: #fff;
+}
+#botomLogin:hover{
+	background-color: #FF8C00;
+}
+#fondo_imagen_Login{
+    width: 99%;
+	height: 635px;
+	background-image: url(../img/celular.jpg);
+	background-repeat: no-repeat;
+	background-size: 99% 700px;
+	position: absolute;
+	top: -640px;
+}
+@-webkit-keyframes maximizar{
+	99%{
+		transform: scale(2.9);
+		opacity: 0;
+	}
+	100%{
+		display: none;
+	}
+}
+#fondo_imagen_Login #login{
+	background-color: rgba(0,0,0,0.5);
+	width: 370px;
+	height: 600px;
+	color: #fff;
+	position: relative; 
+}
+#fondo_imagen_Login #login .icon-1:before{
+  content: '\f178';
+  position: absolute;
+  font-family: 'flaticon';
+  font-size: 1.1em;
+  color: #000;
+  left: 320px;
+  top: 37px;
+  font-weight: bold;
+}
+#fondo_imagen_Login #login .icon-2:before{
+  content: '\f14c';
+  position: absolute;
+  font-family: 'flaticon';
+  font-size: 1.1em;
+  color: #000;
+  left: 320px;
+  top: 37px;
+  font-weight: bold;	
+}
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+	#fondo_imagen #registro{
+      left: 70px;
+	}
+	#fondo_imagen_Login #login{
+		left: 70px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	#fondo_imagen #registro{
+      left: 160px;
+	}
+	#fondo_imagen_Login #login{
+		left: 160px;
+	}
+	#fondo_imagen_Login{
+       top: -655px;
+	}
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	#fondo_imagen #registro{
+      left: 260px;
+	}
+	#fondo_imagen_Login #login{
+		left: 260px;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	#fondo_imagen #registro{
+      left: 360px;
+	}
+	#fondo_imagen_Login #login{
+		left: 360px;
+	}
+}
